@@ -10,9 +10,12 @@ Necessário criar o data-base manualmente com o nome: "loja"
 
 Ao abrir seu IDE, executar os comandos:
 
-composer global require laravel/installer /n
-php artisan migrate /n
-php artisan db:seed --class=ProductsSeeder /n
+composer global require laravel/installer 
+
+php artisan migrate 
+
+php artisan db:seed --class=ProductsSeeder 
+
 php artisan serve
 
 
